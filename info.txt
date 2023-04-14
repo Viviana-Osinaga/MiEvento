@@ -1,0 +1,14 @@
+Google fonts
+font-family: 'Farsan', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Prata', serif;
+font-family: 'Rubik 80s Fade', cursive;
+font-family: 'Rubik Vinyl', cursive;
+font-family: 'Tilt Prism', cursive;
+
+colors;
+rgb(243, 241, 245)
+rgb(240, 217, 255)
+rgb(191, 162, 219)
+rgb(127, 124, 130)

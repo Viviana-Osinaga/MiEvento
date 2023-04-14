@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(127, 124, 130);
+}
+
+/* nav */
+nav {
+    background-color: rgb(191, 162, 219);
+    border-bottom: 1px solid rgb(243, 241, 245);
+    padding-top: 0.2rem;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem auto 0.2rem;
+}
+ul li {
+    list-style-type: none;
+    padding: 2rem auto 0.2rem;
+}
+li a {
+    text-decoration: none;
+    font-family: 'Prata', serif;
+    font-weight: 800;
+    /* color:rgb(127, 124, 130); */
+    padding: 2rem auto 0.2rem;
+}
+li a:hover {
+    /* box-shadow: 4px 4px 20px 8px rgb(240, 217, 255); */
+    text-shadow: 6px 6px 5px rgb(243, 241, 245);
+    padding: 2rem auto 0.2rem;
+}
+
+/* galeria */
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.dos {
+    display: flex;
+    width: 600px;
+    height: 430px;
+    margin: 2rem;
+}
+.dos img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+
+}
+.dos img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.uno {
+    width: 300px;
+    height: auto;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+h1 {
+    font-family: 'Tilt Prism', cursive;
+    font-size: 2.5rem;
+    align-self: center;
+}
+h1:hover {
+    text-shadow:rgb(243, 241, 245);
+}
+
+/* cards */
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(191, 162, 219);
+    border: 2px solid rgb(243, 241, 245);
+}
+.cards1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border: 1px dotted rgb(243, 241, 245);
+}
+.cards1:hover {
+    box-shadow: 4px 4px 20px 8px rgb(240, 217, 255);
+}
+.cards2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border: 1px dotted rgb(243, 241, 245);
+}
+.cards2:hover {
+    box-shadow: 4px 4px 20px 8px rgb(240, 217, 255);
+}
+.cards3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border: 1px dotted rgb(243, 241, 245);
+}
+.cards3:hover {
+    box-shadow: 4px 4px 20px 8px rgb(240, 217, 255);
+}
+h2 {
+    font-family: 'Rubik Vinyl', cursive;
+    font-weight: 300;
+    margin: 1.2rem;
+}
+p {
+    font-family: 'Farsan', cursive;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+.cards .cards1 a {
+    text-decoration: none;
+    font-family: 'Prata', serif;
+    color:rgb(243, 241, 245);
+}
+.cards .cards1 a:hover {
+    /* box-shadow: 4px 4px 20px 8px rgb(240, 217, 255); */
+    text-shadow: 6px 6px 5px rgb(243, 241, 245);
+}
+
+/* info */
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.info .a-info {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.info img{
+    width: 300px;
+    height: 300px;
+    margin: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+
+}
+.info img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+/* invitacion */
+.invitacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(243, 241, 245);
+}
+.invitacion button a{
+    text-decoration: none;
+
+}
+.invitacion button {
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+.invitacion button:hover {
+    box-shadow: 4px 4px 20px 8px rgb(240, 217, 255);
+    background-color: rgb(191, 162, 219);
+}
+.invitacion button a:hover {
+    color:rgb(243, 241, 245);
+}
+
+/* interact */
+
+.interact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.interact button a{
+    text-decoration: none;
+
+}
+.interact button {
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+.interact button:hover {
+    box-shadow: 4px 4px 20px 8px rgb(240, 217, 255);
+    background-color: rgb(191, 162, 219);
+}
+.interact button a:hover {
+    color:rgb(243, 241, 245);
+}
+
+/* interact2 */
+
+.interact2 {
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    height: 15rem;
+}
+.interact2 .a-interact2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 12rem;
+    /* border: 1px dotted rgb(255, 255, 255); */
+}
+.interact2 h2 {
+    color:rgb(243, 241, 245);
+}
+.interact2 i {
+    font-size: 30px;
+    color:rgb(243, 241, 245);
+    padding: 1rem;
+}
+.interact2 button a{
+    text-decoration: none;
+
+}
+.interact2 button {
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+.a-interact2 button:hover {
+    box-shadow: 4px 4px 20px 8px rgb(240, 217, 255);
+    background-color: rgb(191, 162, 219);
+}
+.a-interact2 button a:hover {
+    color:rgb(243, 241, 245);
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(127, 124, 130);
+    margin-top: 1rem;
+}
+.foot {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(127, 124, 130);
+}
+.foot button {
+    padding: 0;
+    margin: 1rem;
+    border: 0;
+    background-color: rgb(127, 124, 130);
+}
+.foot i {
+    font-size: 30px;
+    color:rgb(240, 217, 255);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.foot .fa-facebook:hover {
+    box-shadow: 4px 4px 20px 8px rgb(240, 217, 255);
+    border-radius: 14px;
+}
+.foot .fa-instagram:hover {
+    box-shadow: 4px 4px 20px 8px rgb(240, 217, 255);
+    border-radius: 10px;
+}
