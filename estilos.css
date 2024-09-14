@@ -51,6 +51,7 @@ li a:hover {
     width: 600px;
     height: 430px;
     margin: 2rem;
+    
 }
 .dos img {
     width: 0px;
@@ -58,7 +59,6 @@ li a:hover {
     object-fit: cover;
     opacity: .8;
     transition: .5s ease;
-
 }
 .dos img:hover {
     cursor: crosshair;
@@ -308,3 +308,35 @@ footer {
     box-shadow: 4px 4px 20px 8px rgb(240, 217, 255);
     border-radius: 10px;
 }
+
+/* @keyframes widthAnimation {
+    20% { }
+    40% { }
+    60% { }
+    80% { }
+} */
+
+@media (max-width: 480px) {
+    .dos {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .dos img {
+        padding: 0;
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: 2s ease;
+        /* transition-timing-function: cubic-bezier(0.1, 0.1, 1.0, 0.7); */
+        /* animation: widthAnimation 10s infinite; */
+    }
+    .dos img:target {
+        width:300px;
+        opacity: 1;
+        filter: contrast(100%);
+        
+    }
+}
+
+/*ToDo @keyframes and .dos img!! */
