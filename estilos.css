@@ -32,7 +32,6 @@ li a {
     padding: 2rem auto 0.2rem;
 }
 li a:hover {
-    /* box-shadow: 4px 4px 20px 8px rgb(240, 217, 255); */
     text-shadow: 6px 6px 5px rgb(243, 241, 245);
     padding: 2rem auto 0.2rem;
 }
@@ -145,7 +144,6 @@ p {
     color:rgb(243, 241, 245);
 }
 .cards .cards1 a:hover {
-    /* box-shadow: 4px 4px 20px 8px rgb(240, 217, 255); */
     text-shadow: 6px 6px 5px rgb(243, 241, 245);
 }
 
@@ -309,12 +307,6 @@ footer {
     border-radius: 10px;
 }
 
-/* @keyframes widthAnimation {
-    20% { }
-    40% { }
-    60% { }
-    80% { }
-} */
 
 @media (max-width: 480px) {
     .dos {
@@ -328,15 +320,10 @@ footer {
         object-fit: cover;
         opacity: .8;
         transition: 2s ease;
-        /* transition-timing-function: cubic-bezier(0.1, 0.1, 1.0, 0.7); */
-        /* animation: widthAnimation 10s infinite; */
     }
     .dos img:target {
         width:300px;
         opacity: 1;
         filter: contrast(100%);
-        
     }
 }
-
-/*ToDo @keyframes and .dos img!! */
