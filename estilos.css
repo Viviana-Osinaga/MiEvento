@@ -178,6 +178,35 @@ p {
     transform: scale(1.1, 1.1);
 }
 
+.masinfo {
+    height: fit-content;
+}
+h3 {
+    text-align:end;
+    font-family: 'Rubik Vinyl', cursive;
+    font-weight: 300;
+    margin: 1.2rem;
+}
+.masinfo p {
+    padding: 0.4rem 1rem;
+    box-shadow: 4px 4px 20px 8px rgb(240, 217, 255);
+}
+.unop {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 2rem;
+}
+span {
+    font-weight: 600;
+}
+.imgmasinfo img{
+    width: 1000px;
+    min-width: min-content;
+    height: 800px;
+    max-height: min-content;
+
+}
+
 /* invitacion */
 .invitacion {
     display: flex;
