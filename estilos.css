@@ -16,7 +16,7 @@ nav {
     background-color: rgb(240, 240, 240);
     border-bottom: 1px solid rgb(243, 241, 245);
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 ul {
     display: flex;
@@ -43,10 +43,6 @@ li a:hover {
     padding: 2rem auto 0.2rem;
 }
 
-/* #galeria, #masinfo, #invitacion {
-    transition: 5s ease;
-} */
-
 
 /*  HOME  */
 
@@ -56,10 +52,12 @@ h1 {
     align-self: center;
     font-weight: 300;
     color: rgb(255, 255, 255);
-    margin: 0;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
 }
 .home {
-    background-image:url(pexels-agung-pandit-wiguna-2788488.jpg);
+    background-image:url("pexels-agung-pandit-wiguna-2788488.jpg");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
