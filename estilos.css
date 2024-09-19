@@ -62,8 +62,9 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
-    height: 1200px;
+    height: 1000px;
     margin: 0;
+    box-shadow: 2px 2px 8px rgb(127, 124, 130);
 }
 .home img{
     width: 100%;
