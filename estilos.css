@@ -251,6 +251,7 @@ button {
     text-decoration: none;
     border-radius: 8px;
     border-color: slategrey;
+    color:rgb(127, 124, 130);
 }
 .invitacion button {
     margin-bottom: 2rem;
@@ -277,6 +278,7 @@ button {
 
 .interact button a{
     text-decoration: none;
+    color:rgb(127, 124, 130);
 }
 
 .interact button:hover {
@@ -312,6 +314,7 @@ button {
 }
 .interact2 button a{
     text-decoration: none;
+    color:rgb(127, 124, 130);
 }
 
 .a-interact2 button:hover {
@@ -355,12 +358,12 @@ footer {
 
 }
 .foot .fa-facebook:hover {
-    box-shadow: 4px 4px 20px 8px rgb(240, 217, 255);
-    border-radius: 14px;
+    filter: drop-shadow(2px 2px 8px rgb(240, 217, 255));
+    cursor: pointer;
 }
 .foot .fa-instagram:hover {
-    box-shadow: 4px 4px 20px 8px rgb(240, 217, 255);
-    border-radius: 10px;
+    filter: drop-shadow(2px 2px 8px rgb(240, 217, 255));
+    cursor: pointer;
 }
 
 
