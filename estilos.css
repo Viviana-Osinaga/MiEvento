@@ -29,8 +29,10 @@ ul {
 ul li {
     list-style-type: none;
 }
-li a {
+a {
     text-decoration: none;
+}
+li a {
     font-family: 'Prata', serif;
     font-weight: 800;
     color:rgb(127, 124, 130);
